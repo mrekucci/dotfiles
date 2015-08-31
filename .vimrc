@@ -50,6 +50,12 @@ set listchars=tab:▸\ ,eol:¬
 " Enable the visualisation of the unvisible characters
 set list
 
+" Highlight matches when searching
+set hlsearch
+
+" Enable spell checking
+set spell spelllang=en_us
+
 " Enable plugin for git commit messages
 autocmd Filetype gitcommit setlocal spell textwidth=72
 

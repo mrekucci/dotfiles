@@ -25,7 +25,7 @@ set number
 set ruler
 
 " Keep the cursor line always in the middle (except file start or end)
-set scrolloff=999
+" set scrolloff=999
 
 " Show the current file name in the bottom left
 set laststatus=2

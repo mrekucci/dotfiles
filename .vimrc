@@ -21,6 +21,9 @@ colorscheme solarized
 " Show line number on the left
 set number
 
+" Enable relative line numbering
+set relativenumber
+
 " Show position coordinates in the bottom right
 set ruler
 

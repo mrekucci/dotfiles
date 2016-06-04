@@ -24,9 +24,6 @@ set number
 " Show position coordinates in the bottom right
 set ruler
 
-" Keep the cursor line always in the middle (except file start or end)
-" set scrolloff=999
-
 " Show the current file name in the bottom left
 set laststatus=2
 
@@ -55,6 +52,9 @@ set list
 
 " Highlight matches when searching
 set hlsearch
+
+" Clipboard sharing
+set clipboard=unnamed
 
 " Enable spell checking
 set spell spelllang=en_us

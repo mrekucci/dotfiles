@@ -67,3 +67,9 @@ autocmd Filetype gitcommit setlocal spell textwidth=72
 
 " Load justify macro
 runtime macros/justify.vim
+
+" Change leader key
+let mapleader = ","
+
+" Custom mappings
+map <Leader>n :NERDTreeToggle

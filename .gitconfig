@@ -7,3 +7,7 @@
 	helper = osxkeychain
 [alias]
 	lol = log --oneline --graph --decorate
+[gitreview]
+	remote = origin
+[core]
+	autocrlf = input

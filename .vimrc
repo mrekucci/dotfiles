@@ -1,13 +1,7 @@
-" .vimrc - Peter Mrekaj
-
-
-" GENERAL SETTINGS
-" ================
-
 " Initialization of Patogén (enables easy plugin support)
 execute pathogen#infect()
 
-" Use filetype specific plugins and indentation
+" Use file-type specific plugins and indentation
 filetype plugin indent on
 
 " Enable syntax highlighting
@@ -30,7 +24,7 @@ set ruler
 " Show the current file name in the bottom left
 set laststatus=2
 
-" Set textwidth
+" Set text-width
 set textwidth=78
 
 " Show column margin
@@ -56,7 +50,7 @@ set list
 " Highlight matches when searching
 set hlsearch
 
-" Clipboard sharing
+" Enable clipboard sharing
 set clipboard=unnamed
 
 " Enable spell checking

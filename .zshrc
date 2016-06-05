@@ -28,3 +28,9 @@ SAVEHIST=5000
 setopt appendhistory
 setopt sharehistory
 setopt incappendhistory
+
+# Environment variables
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export GOPATH=$HOME/Documents/workspace/gocode
+export PATH=$PATH:$GOPATH/bin
+export GREP_OPTIONS="--color=always"

@@ -6,7 +6,7 @@
 [credential]
 	helper = osxkeychain
 [alias]
-	lol = log --oneline --graph --decorate
+	lgd = log --oneline --graph --decorate
 [gitreview]
 	remote = origin
 [core]

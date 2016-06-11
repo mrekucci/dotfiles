@@ -11,3 +11,4 @@
 	remote = origin
 [core]
 	autocrlf = input
+	editor = nvim

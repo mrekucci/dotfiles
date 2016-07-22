@@ -1,0 +1,26 @@
+" https://github.com/JetBrains/ideavim
+" https://github.com/JetBrains/ideavim/blob/master/doc/set-commands.md
+
+" Print the line number in front of each line
+set number
+
+" Show the line number relative to the line with the cursor
+set relativenumber
+
+" Show where search pattern typed so far matches
+set incsearch
+
+" Highlight matches when searching
+set hlsearch
+
+" Enable vim-surround commands: ys, cs, ds, S
+set surround
+
+" Pairs of characters that "%" can match
+set matchpairs
+
+" Number formats recognized for CTRL-A command
+set nrformats
+
+" Message on status line to show current mode
+set showmode

@@ -12,3 +12,4 @@
 [core]
 	autocrlf = input
 	editor = nvim
+	quotepath = off

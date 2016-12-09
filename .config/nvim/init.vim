@@ -11,20 +11,20 @@
   call dein#add('Shougo/dein.vim')
 
 " Syntax
-  call dein#add('altercation/vim-colors-solarized')  
+  call dein#add('altercation/vim-colors-solarized')
 
 " Git helpers
-  call dein#add('tpope/vim-fugitive') 
-  call dein#add('airblade/vim-gitgutter') 
+  call dein#add('tpope/vim-fugitive')
+  call dein#add('airblade/vim-gitgutter')
 
-" Utils  
-  call dein#add('ctrlpvim/ctrlp.vim') 
-  call dein#add('neomake/neomake') 
-  call dein#add('vim-airline/vim-airline') 
-  call dein#add('vim-airline/vim-airline-themes') 
-  call dein#add('tpope/vim-surround') 
-  call dein#add('vim-multiple-cursors') 
-  
+" Utils
+  call dein#add('ctrlpvim/ctrlp.vim')
+  call dein#add('neomake/neomake')
+  call dein#add('vim-airline/vim-airline')
+  call dein#add('vim-airline/vim-airline-themes')
+  call dein#add('tpope/vim-surround')
+  call dein#add('vim-multiple-cursors')
+
    if dein#check_install()
      call dein#install()
      let pluginsExist=1
@@ -74,7 +74,7 @@
   set nowrap
 
 " Set unvisible characters representation
-  set listchars=tab:▸\ ,eol:¬
+  set listchars=tab:▸\ ,trail:\ ,eol:¬
 
 " Enable the visualisation of the unvisible characters
   set list

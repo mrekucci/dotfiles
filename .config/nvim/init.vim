@@ -23,12 +23,11 @@
   call dein#add('vim-airline/vim-airline')
   call dein#add('vim-airline/vim-airline-themes')
   call dein#add('tpope/vim-surround')
-  call dein#add('vim-multiple-cursors')
+  call dein#add('vim-scripts/vim-multiple-cursors')
 
-   if dein#check_install()
-     call dein#install()
-     let pluginsExist=1
-   endif
+  if dein#check_install()
+    call dein#install()
+  endif
 
   call dein#end()
   filetype plugin indent on
@@ -36,6 +35,9 @@
 " }}}
 
 " System Settings ----------------------------------------------------------{{{
+
+" Enable filetype detection, plugin, and indent
+  filetype plugin indent on
 
 " Enable syntax highlighting
   syntax enable

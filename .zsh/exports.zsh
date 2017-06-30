@@ -1,8 +1,6 @@
-# Environment variables for Golang
-export GOPATH=$HOME/Documents/workspace/gocode
-
-# Environment variables for Java
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+# GOPATH environment variable for Golang
+GO=$HOME/Workspace/go
+export GOPATH=$GO/dependencies:$GO/projects/private:$GO/projects/work
 
 # Enable color in grep
 export GREP_OPTIONS='--color=auto'

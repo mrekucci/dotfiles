@@ -46,6 +46,9 @@
   set background=light
   colorscheme solarized
 
+" Set language for the editor messages
+  language en_US.UTF-8
+
 " Show line number on the left
   set number
 

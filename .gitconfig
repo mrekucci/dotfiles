@@ -7,9 +7,9 @@
 	helper = osxkeychain
 [alias]
 	ll = log --oneline --graph --decorate
-[gitreview]
-	remote = origin
 [core]
 	autocrlf = input
 	editor = nvim
 	quotepath = off
+[pull]
+	ff = only

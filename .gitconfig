@@ -13,3 +13,11 @@
 	quotepath = off
 [pull]
 	ff = only
+[color]
+	interactive = auto
+	showbranch = auto
+	branch = auto
+	status = auto
+	diff = auto
+	grep = auto
+	ui = auto

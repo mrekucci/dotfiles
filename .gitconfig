@@ -6,7 +6,7 @@
 [credential]
 	helper = osxkeychain
 [alias]
-	ll = log --oneline --graph --decorate
+    ll = log --graph --abbrev-commit --date=relative --pretty=format:'%C(magenta)%h%Creset -%C(yellow)%d%Creset %s %C(green)(%cr)%Creset %C(bold blue)<%an>%Creset'
 [core]
 	autocrlf = input
 	editor = nvim

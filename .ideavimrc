@@ -24,3 +24,6 @@ set nrformats
 
 " Message on status line to show current mode
 set showmode
+
+" Remap the <ESC> key
+inoremap jj <ESC>

@@ -102,6 +102,9 @@
 " Change leader key
   let mapleader = ","
 
+" Remap the <ESC> key
+  inoremap jj <ESC>
+
 " }}}
 
 " Plugins Settings ---------------------------------------------------------{{{

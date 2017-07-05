@@ -21,3 +21,5 @@
 	diff = auto
 	grep = auto
 	ui = auto
+[commit]
+	template = /Users/mrekucci/.gitcommittmp

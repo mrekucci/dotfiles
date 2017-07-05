@@ -1,0 +1,53 @@
+
+
+# <type>(<scope>): <subject> Max of 50 characters
+# <BLANK LINE>
+# <body>
+# <BLANK LINE>
+# <footer>
+#
+# <type> - mandatory, must be one of the following:
+#   - fix:      A bug fix
+#   - feat:     A new feature
+#   - refactor: A code change that neither fixes a bug nor adds a feature
+#   - test:     Adding missing or correcting existing tests, including refactoring
+#   - docs:     Documentation only changes
+#   - perf:     A code change that improves performance
+#   - style:    Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+#   - chore:    Changes to the build process or auxiliary tools and libraries such as documentation generation
+#
+# <scope> - optional, could be anything specifying place of the commit change.
+# For example when using Golang it's usually a name of the package where changes
+# was made. If a change touches two packages, then both can be mentioned as:
+# `(package1, package1)`. For more than two packages you can use `*` when the
+# change affects more than a single scope.
+#
+# <subject> - mandatory, contains succinct description of the change:
+#   - use the imperative, present tense: "change" not "changed" nor "changes"
+#   - don't capitalize first letter
+#   - no dot (.) at the end
+#
+# <body> - optional, just as in the <subject>, use the imperative, present
+# tense: "change" not "changed" nor "changes". The <body> should include the
+# motivation for the change and contrast this with previous behavior.
+# Limit each line to a maximum of 72 characters.
+#
+# <footer> - optional, should contain any information about Breaking Changes
+# and is also the place to reference GitHub, Jira, etc. issues that this commit
+# closes.  Breaking Changes should start with the word `BREAKING CHANGE:` with
+# a space or two newlines. The rest of the commit message is then used for this.
+
+# If the commit reverts a previous commit, it should begin with `revert:`,
+# followed by the header of the reverted commit. In the body it should say:
+# `This reverts commit <hash>.`, where the hash is the SHA of the commit being
+# reverted.
+#
+# Example:
+#
+# feat(http): allow creation of Server manually
+#
+# The Server struct has exported fields, which allows users to manually
+# create a Server object without using NewServer or NewTLSServer and
+# directly call Start or StartTLS on their object.
+#
+# Closes #3366

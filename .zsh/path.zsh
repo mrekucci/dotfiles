@@ -2,7 +2,9 @@
 path+=($GOPATH/bin)
 
 # Include directories from GOPATH in search when changing path
-cdpath+=($GOPATH/src/golang.org $GOPATH/src/github.com $GOPATH/src/bitbucket.org)
+for gopath in ${(s/:/)GOPATH}; do
+    cdpath+=($gopath/src/golang.org $gopath/src/github.com $gopath/src/bitbucket.org)
+done
 
 # Automatically change path if typed word is a directory
 setopt auto_cd

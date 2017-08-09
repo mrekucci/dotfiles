@@ -23,3 +23,6 @@
 	ui = auto
 [commit]
 	template = /Users/mrekucci/.gitcommittmp
+[rerere]
+	enabled = true
+	autoupdate = true

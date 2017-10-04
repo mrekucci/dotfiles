@@ -67,14 +67,6 @@
 " Show column margin
   set colorcolumn=80
 
-" Set tabs to 4 spaces
-  set shiftwidth=4
-  set softtabstop=4
-  set tabstop=4
-
-" Automatically expand tabs into spaces
-  set expandtab
-
 " Turn off text wrapping
   set nowrap
 

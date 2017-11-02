@@ -1,8 +1,6 @@
-# Include binaries built by Golang in the search
-path+=($GOPATH/bin)
-
 # Include directories from GOPATH in search when changing path
 for gopath in ${(s/:/)GOPATH}; do
+    path+=($gopath/bin) # Include binaries built by Golang in the search.
     cdpath+=($gopath/src/golang.org $gopath/src/github.com $gopath/src/bitbucket.org)
 done
 

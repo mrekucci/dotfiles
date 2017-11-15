@@ -43,7 +43,8 @@
   syntax enable
 
 " Set background and color scheme
-  set background=light
+  set background=dark
+  let g:solarized_termcolors = 256
   colorscheme solarized
 
 " Set language for the editor messages

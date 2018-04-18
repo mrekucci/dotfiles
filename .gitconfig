@@ -9,6 +9,7 @@
     ll = log --graph --abbrev-commit --date=relative --pretty=format:'%C(magenta)%h%Creset -%C(yellow)%d%Creset %s %C(green)(%cr)%Creset %C(bold blue)<%an>%Creset'
 [core]
 	autocrlf = input
+	safecrlf = true
 	editor = nvim
 	quotepath = off
 [pull]

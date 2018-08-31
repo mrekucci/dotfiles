@@ -1,3 +1,5 @@
+path+=($HOME/.cargo/bin)
+
 # Include directories from GOPATH in search when changing path
 for gopath in ${(s/:/)GOPATH}; do
     path+=($gopath/bin) # Include binaries built by Golang in the search.

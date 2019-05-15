@@ -1,0 +1,7 @@
+This file contains a list of files that will be globally ignored.
+
+# MAC OS X generated files
+.DS_Store*
+
+# Intellij project files
+.idea/

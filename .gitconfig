@@ -12,6 +12,7 @@
 	safecrlf = true
 	editor = nvim
 	quotepath = off
+	excludesfile = ~/.gitignore
 [pull]
 	ff = only
 [color]

@@ -2,7 +2,7 @@
 	name = Peter Mrekaj
 	email = mrekucci@gmail.com
 [push]
-	default = simple
+	default = current
 [credential]
 	helper = osxkeychain
 [alias]

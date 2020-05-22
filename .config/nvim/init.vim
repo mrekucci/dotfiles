@@ -24,6 +24,7 @@
   call dein#add('vim-airline/vim-airline-themes')
   call dein#add('tpope/vim-surround')
   call dein#add('vim-scripts/vim-multiple-cursors')
+  call dein#add('editorconfig/editorconfig-vim')
 
   if dein#check_install()
     call dein#install()
